@@ -43,7 +43,7 @@ nlp_priyanka = nlp(wiki_priyanka)
 # .ents method for entity recognition 
 print([(i, i.label_, i.label) for i in nlp_priyanka.ents])
 
-
+print("\n---------------------------------------\n")
 # .explain method allows spacy to explain categories
 entity_norp = spacy.explain("NORP")
 print(f"NORP :{entity_norp}")
